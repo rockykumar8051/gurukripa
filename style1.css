@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+html{
+	scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.heading{
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    padding: 20px;
+    margin-top: 5px;
+    font-weight: bolder;
+    text-align: center;
+    
+}
+  
+.t{ 
+  text-decoration: none;
+  color:white;
+  margin: none;
+  font-size: 30px;
+  
+}
+
+  .mySlides 
+  {display: none;}
+  
+  
+  
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+  
+  }
+  .img1{
+    vertical-align: middle;
+    height: 700px;
+    width: 100%;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color:black;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .8} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .8} 
+    to {opacity: 1}
+  }
+    
+  .mattress{
+    box-sizing: border-box;
+    border-radius: 8%;
+    margin: 15px;
+    padding: 0  25px;
+    display: block;
+  }
+
+  .m1{
+    font-family: 'Times New Roman', Times, serif;
+   font-size: x-large;
+    font-weight: 900;
+  }
+   
+    
+   .m3{
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      text-align:center;
+      box-sizing:border-box;
+      background-color:#f0f0f0;
+      border-radius:20px;
+      padding:8px;
+      margin-top:10px;
+      list-style-type: none;
+      font-weight:500;
+      box-shadow:2px 2px 5px grey;
+      transition: 2s ease all;
+      
+    }
+    .footer{
+      background-color: black;
+      color: white;
+    }
+    
+
+  
+  .card1{
+    margin:10px;
+    border-radius:10%;
+    text-align: center;
+  }
+  header{
+     
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+     font-weight: 800;
+     text-transform:capitalize;
+     margin-bottom:5px;
+  }
+  .anti{ 
+    width: 300px;
+  }
+    
+    
+  .mat{ 
+    height: 350px;
+    width:100%;
+  }
+  
+    
+  div.container1 {
+    margin-top:10px;
+    padding: 10px;
+    text-align: justify;
+    font-size:1 rem;
+  }
+
+  
+@media only screen and (max-width:700px)
+{
+    .heading{
+        margin-top: 10px;
+        font-weight:bolder;
+        font-size:29px;
+        padding: 5px;  
+        color: #000;
+    }
+    .grid{
+      box-sizing: border-box;
+      padding: 10px;
+      text-transform: capitalize;
+      display: grid;
+      margin: 0 5 10 10;
+      background-color: #c5e3f6;
+      text-align: center;
+    }
+  
+.t{ 
+
+  color:white;
+  margin: none;
+  font-size: 20px;
+  
+}
+.img1{
+  vertical-align: middle;
+  height: 350px;
+  width: 100%;
+
+}
+.none{
+  display:none;
+}
+.sape{
+  width: 100%;
+}
+.footer{
+  padding-top: 20px;
+  background-color: #303a52;
+  color: white;
+  padding-left: 10px;
+  padding-bottom: 60px;
+}
+.b {
+  background-color: #031031; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 15px;
+  margin: 10px 20px;
+  padding: 10px 20px;
+  margin-top: 45px;
+}
+.l1{
+  text-transform:capitalize;
+ padding-left:15px;
+ 
+}
+
+.map{
+  width:150px;
+  float: right;
+  padding-top: 10px;
+}
+
+
+}
